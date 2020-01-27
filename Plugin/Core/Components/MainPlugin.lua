@@ -24,11 +24,11 @@ function MainPlugin:init(props)
 		-- Put the plugin gui in the state so that once its loaded, we
 		-- trigger a rerender
 		pluginGui = nil,
-		pluginTitle = "PluginTemplate"
+		pluginTitle = "StudioPlayerCamera"
 	}
 
-	self.toolbar = self.plugin:CreateToolbar("PluginTemplate")
-	self.pluginToolbarButton = self.toolbar:CreateButton("PluginTemplate", "Open the PluginTemplate widget.", Constants.TOOLBAR_ICON)
+	self.toolbar = self.plugin:CreateToolbar("StudioPlayerCamera")
+	self.pluginToolbarButton = self.toolbar:CreateButton("StudioPlayerCamera", "Open the StudioPlayerCamera widget.", Constants.TOOLBAR_ICON)
 
 	self.pluginToolbarButton:SetActive(self.state.enabled)
 

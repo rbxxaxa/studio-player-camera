@@ -6,7 +6,7 @@ local Types = require(Plugin.Core.Util.Types)
 
 local Constants = {}
 
-Constants.DEBUG_LABEL = "PluginTemplate"
+Constants.DEBUG_LABEL = "StudioPlayerCamera"
 Constants.PLUGIN_MIN_WIDTH = 320
 Constants.PLUGIN_MAX_WIDTH = 600
 Constants.TOOLBAR_ICON = "rbxassetid://0"
